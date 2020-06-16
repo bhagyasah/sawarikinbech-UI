@@ -1,0 +1,21 @@
+@use '../config/config';
+
+.main-footer {
+  height: 100px;
+  margin-top: 20px;
+  width: 100%;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  .footer-container {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  span {
+    margin: 10px;
+  }
+}

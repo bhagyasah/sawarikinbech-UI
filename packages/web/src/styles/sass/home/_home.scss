@@ -1,0 +1,41 @@
+@use '../config/config';
+@import './main-navbar.scss';
+@import './main-footer.scss';
+@import '../product-details/index.scss';
+@import '../admin/admin.scss';
+@import './drawer-menu.scss';
+@import './used.scss';
+
+body {
+ margin: 0;
+ padding: 0;
+ font-family: ' Roboto, sans-serif';
+ background: white;
+}
+
+.main_container {
+  width: 100%;
+  // background: rebeccapurple;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Roboto, sans-serif';
+  position: relative;
+  // navigation bar style
+  @import './main-navbar.scss';
+
+  // Slector and slider style.....
+  @import './home-selector-slider.scss';
+
+
+  // Product list style including List header and card
+  @import './home-product-list.scss';
+
+  // Main footer sytyle
+  @import './main-footer.scss';
+
+}
+
+

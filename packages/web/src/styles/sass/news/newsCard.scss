@@ -1,0 +1,41 @@
+.news-card {
+  // background: red;
+  width: 20%;
+  margin: 5px;
+  padding: 2px;
+  display: 'flex';
+  flex-direction: column;
+  align-items: center;
+
+  .news-container {
+    .image-container {
+      width: 100%;
+      height: 250px;
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+      }
+    }
+  }
+
+  #header-span {
+    display: inline-block;
+    width: 100%;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis;
+    font-size: 20px;
+    padding: 5px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .news-card {
+    width: 98%;
+  }
+  .news-container {
+    display: flex;
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,27 @@
+
+.home-product-list {
+  width: 90%;
+  margin-top: 10px;
+  // background: red;
+  .product-list-header {
+    display: flex;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 20px;
+    margin: 0px;
+    h2 {
+      margin: 0px;
+      padding: 0px;
+
+    }
+  }
+
+@import './horizontol-scroller.scss';
+}
+
+@media only screen and (max-width: 600px) {
+  .home-product-list {
+    width: 98%;
+  }
+}
